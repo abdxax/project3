@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">project3 udacity</string>
+
+        <string name="Q1">Q1: Chose the OOP Language</string>
+        <string name="Q1_hint">(Multiple answers )</string>
+        <string name="java">JAVA</string>
+        <string name="c">C#</string>
+        <string name="c_answer">C</string>
+        <string name="Q2">Q2:Where this place ?</string>
+        <string name="parice">Parice</string>
+        <string name="las_vegas">Las vegas</string>
+        <string name="moscow">Moscow</string>
+        <string name="Q3">Q3:Garampani sanctuary is located at ?</string>
+        <string name="kohima_nagaland">Kohima, Nagaland</string>
+        <string name="diphu_assam">Diphu, Assam</string>
+        <string name="junagarh_gujarat">Junagarh, Gujarat</string>
+        <string name="Q4">Q4:How many people live in Saudi Arabia ?</string>
+        <string name="_30000000">30000000</string>
+        <string name="_25000000">25000000</string>
+        <string name="_2000000">2000000</string>
+        <string name="Q5">Q5:What The capital of Italy ?</string>
+        <string name="milan">Milan</string>
+        <string name="rome">Rome</string>
+        <string name="bologna">Bologna</string>
+        <string name="submit">Submit</string>
+    </resources>
+
+
