@@ -23,6 +23,8 @@
         <string name="rome">Rome</string>
         <string name="bologna">Bologna</string>
         <string name="submit">Submit</string>
-    </resources>
+    <string name="Q6">Q6:Solve (2*6)+4</string>
+    <string name="answer_her">Answer Her !</string>
+</resources>
 
 

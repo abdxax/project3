@@ -65,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/c_answer"
                 android:paddingLeft="10dp"
+                android:id="@+id/C"
                 />
 
             <TextView
@@ -72,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
                 android:text="@string/Q2"
+                android:layout_margin="8dp"
                 />
             <ImageButton
                 android:id="@+id/imageButton"
@@ -223,6 +225,25 @@
                     android:paddingLeft="10dp"
                     />
             </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="@string/Q6"
+                android:layout_margin="8dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/math"
+                android:layout_margin="10dp"
+                android:hint="@string/answer_her"
+                android:ems="10"
+                android:inputType="number"
+                />
+
+
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

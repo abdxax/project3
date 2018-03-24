@@ -14,27 +14,31 @@ public class MainActivity extends AppCompatActivity {
     int inCorrectAnswers=0;
     CheckBox java;
     CheckBox Ccharp;
+    CheckBox C;
     RadioGroup Q2;
     RadioGroup Q3;
     RadioGroup Q4;
     RadioGroup Q5;
     EditText name;
+    EditText math;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         java=(CheckBox) findViewById(R.id.java);
         Ccharp=(CheckBox) findViewById(R.id.Csharp);
+        C=(CheckBox)findViewById(R.id.C);
         Q2=(RadioGroup) findViewById(R.id.Q2_answer);
         Q3=(RadioGroup) findViewById(R.id.Q3_answer);
         Q4=(RadioGroup) findViewById(R.id.Q4_answer);
         Q5=(RadioGroup) findViewById(R.id.Q5_answer);
         name=(EditText) findViewById(R.id.name);
+        math=(EditText) findViewById(R.id.math);
 
     }
 
     public void butSubnit(View view) {
-        if (java.isChecked()&& Ccharp.isChecked()){
+        if (java.isChecked()&& Ccharp.isChecked()&&!C.isChecked()){
             correctAnswers++;
         }
         else {
@@ -68,7 +72,13 @@ public class MainActivity extends AppCompatActivity {
         else {
             inCorrectAnswers++;
         }
-
+        int resultMath=Integer.parseInt(math.getText().toString());
+        if (resultMath==16){
+            correctAnswers++;
+        }
+        else{
+            inCorrectAnswers++;
+        }
         FragmentManager fragmentManager=getFragmentManager();
         Result result=new Result();
         result.Results(name.getText().toString(),correctAnswers,correctAnswers,inCorrectAnswers);
